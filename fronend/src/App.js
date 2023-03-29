@@ -1,6 +1,7 @@
 import AboutPage from "./component/aboutPage";
 import HomePage from "./component/homePage";
 import NavBar from "./component/navBar";
+import PrizePage from "./component/prizePage";
 import ProbStat from "./component/problemStatement";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <HomePage />
       <AboutPage />
       <ProbStat />
+      <PrizePage />
     </>
   );
 }

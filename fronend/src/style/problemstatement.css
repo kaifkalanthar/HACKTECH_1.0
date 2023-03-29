@@ -88,6 +88,7 @@
     .ps-no {
         height: 200px;
         background: #F4ABC4;
+        line-height: 0;
     }
 
     .ps-content {

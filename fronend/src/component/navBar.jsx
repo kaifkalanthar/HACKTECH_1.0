@@ -9,7 +9,6 @@ const NavBar = () => {
         setClicked(!clicked ? true : !clicked);
     }
     return (
-        <>
             <div className='navbar'>
                 <div className='navbar-container'>
                     <div className='logo-container'>
@@ -28,8 +27,7 @@ const NavBar = () => {
                         id="toggle">
                     </i>
                 </div>
-            </div>
-        </>
+        </div>
     );
 }
 

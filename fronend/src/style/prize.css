@@ -1,0 +1,182 @@
+.prize-page {
+    position: absolute;
+    margin: 30px 40px;
+    background: #333456;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prize-header {
+    text-align: center;
+    font-size: 60.678px;
+    font-weight: 100;
+}
+
+.bars {
+    display: flex;
+    position: relative;
+}
+
+.bar-1 {
+    margin: 40px 80px;
+    background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+    width: 270px;
+    height: 517px;
+    box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+}
+
+.bar-2 {
+    position: relative;
+    bottom: -172px;
+    margin: 40px 80px;
+    background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+    width: 270px;
+    height: 344px;
+    box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+}
+
+.bar-3 {
+    position: relative;
+    bottom: -250px;
+    margin: 40px 80px;
+    background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+    width: 270px;
+    height: 270px;
+    box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+}
+
+.prize {
+    text-align: center;
+    margin: -100px;
+    font-weight: 600;
+    font-size: 120px;
+}
+
+.prize-in-letter {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.abt-price {
+    font-size: 18px;
+    padding-top: 50%;
+    text-align-last: center;
+}
+
+.cert-header {
+    text-align: center;
+}
+
+.cert-content {
+    text-align: center;
+    width: 500px;
+}
+
+@media screen and (max-width : 1267px) {
+
+    .bar-1 {
+        margin: 25px 40px;
+        background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+        width: 180px;
+        height: 517px;
+        box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+    }
+
+    .bar-2 {
+        position: relative;
+        bottom: -172px;
+        margin: 25px 40px;
+        background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+        width: 180px;
+        height: 344px;
+        box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+    }
+
+    .bar-3 {
+        position: relative;
+        bottom: -263px;
+        margin: 25px 40px;
+        background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+        width: 180px;
+        height: 250px;
+        box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+    }
+
+    .prize {
+        text-align: center;
+        margin: -100px;
+        font-weight: 600;
+        font-size: 120px;
+    }
+
+    .prize-in-letter {
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width : 831px) {
+
+    .prize-page {
+        position: absolute;
+        margin: 40px 0;
+        right: 3%;
+        left: 3%;
+        width: auto;
+        background: #333456;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200vh;
+    }
+
+    .bars {
+        display: flexbox;
+        flex-direction: column;
+    }
+
+    .bar-1 {
+        background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+        margin-top: 250px;
+        width: 180px;
+        height: 240px;
+        box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+    }
+
+    .bar-2 {
+        background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+        margin-top: -150px;
+        width: 180px;
+        height: 240px;
+        box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+    }
+
+    .bar-3 {
+        background: linear-gradient(90deg, #F4ABC4 50%, #060930 50.01%);
+        margin-top: -200px;
+        width: 180px;
+        height: 240px;
+        box-shadow: -60px -49px 102px -48px rgba(244, 171, 196, 0.43);
+    }
+
+    .prize {
+        text-align: center;
+        font-weight: 600;
+        font-size: 120px;
+    }
+
+    .cert-content {
+        text-align: center;
+        width: 350px;
+    }
+
+    .cert {
+        position: relative;
+        top: 240px;
+    }
+}
