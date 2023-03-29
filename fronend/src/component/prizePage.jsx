@@ -4,7 +4,7 @@ import '../style/prize.css';
 
 const PrizePage = () => {
     return (
-        <div>
+        <div className='prize-cover'>
             <div className="prize-page">
                 <h1 className='prize-header'>PRIZES</h1>
                 <div className="bars">
