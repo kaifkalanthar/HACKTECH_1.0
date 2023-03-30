@@ -1,4 +1,6 @@
 import AboutPage from "./component/aboutPage";
+import ContactForm from "./component/contactForm";
+import Footer from "./component/footer";
 import HomePage from "./component/homePage";
 import NavBar from "./component/navBar";
 import PrizePage from "./component/prizePage";
@@ -14,6 +16,8 @@ function App() {
       <ProbStat />
       <PrizePage />
       <Sponsers/>
+      <ContactForm />
+      <Footer />
     </>
   );
 }

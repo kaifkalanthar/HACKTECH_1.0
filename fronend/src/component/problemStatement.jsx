@@ -41,7 +41,7 @@ const ProbStat = () => {
                 <h1 className='ps-header'>PROBLEM STATEMENT</h1>
 
                 {data.map(d => (
-                    <div className='ps-container'>
+                    <div className='ps-container' key={d.ps_no}>
                         <div className="ps-no">
                             <h1 className='ps-no-s'>{d.ps_no}</h1>
                         </div>
