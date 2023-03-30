@@ -1,8 +1,7 @@
 .navbar {
     position: sticky;
-    top: 20px;
+    top: 30px;
     background: #F4ABC4;
-    margin: 20px 40px;
     border-radius: 30px;
     height: 80px;
     padding: 0px 50px;

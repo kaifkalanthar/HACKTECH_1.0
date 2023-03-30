@@ -193,12 +193,12 @@
         display: flex;
         position: relative;
         flex-direction: column;
-        margin-left: 25px;
+        box-sizing: border-box;
+        
     }
     .prize-cover {
-        display: flex;
-        width: 200px;
-        margin: 0;
+        width: 100%;
+        margin-right: -0.5px;
     }
     .prize-header {
         text-align: center;
